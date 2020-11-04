@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/gumoximall-auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-cart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-coupon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-member/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-member/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-seckill/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-seckill/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-third-party/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-ware/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gumoximall-ware/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-fast/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-fast/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-generator/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: gumoximall-third-party
+  cloud:
+    nacos:
+      discovery:
+        server-addr: gumoximall.com:8848
+    alicloud:
+      sms:
+        host: https://smsmsgs.market.alicloudapi.com
+        path: /sms/
+        skin: 1
+        sign: 1
+        appcode: f9f031685c3d415cb8e59a0368c8b1aa
+
+server:
+  port: 30000
+
+
+#spring:
+#  cloud:
+#    alicloud:
+#      access-key: LTAI4G3BNW3v31k4V5cGyPyp
+#      secret-key: 4iXYUlC9YIcj944hCzLkxkhxdZrpz9
+#      oss:
+#        endpoint: oss-cn-shenzhen.aliyuncs.com
+#        bucket: gumoximall

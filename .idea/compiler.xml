@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gumoximall-gateway" />
+        <module name="gumoximall-cart" />
+        <module name="gumoximall-member" />
+        <module name="gumoximall-product" />
+        <module name="gumoximall-seckill" />
+        <module name="gumoximall-ware" />
+        <module name="mall" />
+        <module name="renren-fast" />
+        <module name="gumoximall-coupon" />
+        <module name="renren-generator" />
+        <module name="gumoximall-order" />
+        <module name="gumoximall-common" />
+        <module name="gumoximall-third-party" />
+        <module name="gumoximall-auth-server" />
+        <module name="gumoximall-search" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gumoximall-auth-server" target="1.8" />
+      <module name="gumoximall-cart" target="1.8" />
+      <module name="gumoximall-common" target="8" />
+      <module name="gumoximall-coupon" target="1.8" />
+      <module name="gumoximall-gateway" target="1.8" />
+      <module name="gumoximall-member" target="1.8" />
+      <module name="gumoximall-order" target="1.8" />
+      <module name="gumoximall-product" target="1.8" />
+      <module name="gumoximall-search" target="1.8" />
+      <module name="gumoximall-seckill" target="1.8" />
+      <module name="gumoximall-third-party" target="1.8" />
+      <module name="gumoximall-ware" target="1.8" />
+      <module name="mall" target="1.5" />
+      <module name="renren-fast" target="1.8" />
+      <module name="renren-generator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gumoximall-auth-server" options="-parameters" />
+      <module name="gumoximall-cart" options="-parameters" />
+      <module name="gumoximall-coupon" options="-parameters" />
+      <module name="gumoximall-gateway" options="-parameters" />
+      <module name="gumoximall-member" options="-parameters" />
+      <module name="gumoximall-order" options="-parameters" />
+      <module name="gumoximall-product" options="-parameters" />
+      <module name="gumoximall-search" options="-parameters" />
+      <module name="gumoximall-seckill" options="-parameters" />
+      <module name="gumoximall-third-party" options="-parameters" />
+      <module name="gumoximall-ware" options="-parameters" />
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+    </option>
+  </component>
+</project>

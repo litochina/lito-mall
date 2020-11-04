@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/gumoximall-auth-server/gumoximall-auth-server.iml" filepath="$PROJECT_DIR$/gumoximall-auth-server/gumoximall-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gumoximall-cart/gumoximall-cart.iml" filepath="$PROJECT_DIR$/gumoximall-cart/gumoximall-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gumoximall-common/gumoximall-common.iml" filepath="$PROJECT_DIR$/gumoximall-common/gumoximall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gumoximall-coupon/gumoximall-coupon.iml" filepath="$PROJECT_DIR$/gumoximall-coupon/gumoximall-coupon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gumoximall-gateway/gumoximall-gateway.iml" filepath="$PROJECT_DIR$/gumoximall-gateway/gumoximall-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gumoximall-member/gumoximall-member.iml" filepath="$PROJECT_DIR$/gumoximall-member/gumoximall-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gumoximall-order/gumoximall-order.iml" filepath="$PROJECT_DIR$/gumoximall-order/gumoximall-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gumoximall-product/gumoximall-product.iml" filepath="$PROJECT_DIR$/gumoximall-product/gumoximall-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gumoximall-search/gumoximall-search.iml" filepath="$PROJECT_DIR$/gumoximall-search/gumoximall-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gumoximall-seckill/gumoximall-seckill.iml" filepath="$PROJECT_DIR$/gumoximall-seckill/gumoximall-seckill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gumoximall-third-party/gumoximall-third-party.iml" filepath="$PROJECT_DIR$/gumoximall-third-party/gumoximall-third-party.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gumoximall-ware/gumoximall-ware.iml" filepath="$PROJECT_DIR$/gumoximall-ware/gumoximall-ware.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mall.iml" filepath="$PROJECT_DIR$/.idea/mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
     </modules>
   </component>
 </project>

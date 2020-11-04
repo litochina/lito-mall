@@ -7,6 +7,18 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gumoximall-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/gumoximall-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/gumoximall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/gumoximall-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/gumoximall-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/gumoximall-member/pom.xml" />
+        <option value="$PROJECT_DIR$/gumoximall-order/pom.xml" />
+        <option value="$PROJECT_DIR$/gumoximall-product/pom.xml" />
+        <option value="$PROJECT_DIR$/gumoximall-search/pom.xml" />
+        <option value="$PROJECT_DIR$/gumoximall-seckill/pom.xml" />
+        <option value="$PROJECT_DIR$/gumoximall-third-party/pom.xml" />
+        <option value="$PROJECT_DIR$/gumoximall-ware/pom.xml" />
       </list>
     </option>
   </component>

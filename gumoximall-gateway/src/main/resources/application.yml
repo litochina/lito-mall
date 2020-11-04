@@ -1,0 +1,79 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: product_route
+          uri: lb://gumoximall-product
+          predicates:
+            - Path=/api/product/**,/hello
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+
+        - id: coupon_route
+          uri: lb://gumoximall-coupon
+          predicates:
+            - Path=/api/coupon/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+
+        - id: member_route
+          uri: lb://gumoximall-member
+          predicates:
+            - Path=/api/member/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+
+        - id: ware_route
+          uri: lb://gumoximall-ware
+          predicates:
+            - Path=/api/ware/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+
+        - id: third_party_route
+          uri: lb://gumoximall-third-party
+          predicates:
+            - Path=/api/thirdparty/**
+          filters:
+            - RewritePath=/api/thirdparty/(?<segment>.*), /$\{segment}
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api(?<segment>/?.*), /renren-fast/$\{segment}
+
+        - id: gumoximall_host_route
+          uri: lb://gumoximall-product
+          predicates:
+            - Host=gumoxi.com,item.gumoxi.com
+
+        - id: search_route
+          uri: lb://gumoximall-search
+          predicates:
+            - Host=search.gumoxi.com
+
+        - id: seckill_route
+          uri: lb://gumoximall-seckill
+          predicates:
+            - Host=seckill.gumoxi.com
+
+        - id: auth_route
+          uri: lb://gumoximall-auth-server
+          predicates:
+            - Host=auth.gumoxi.com
+
+        - id: cart_route
+          uri: lb://gumoximall-cart
+          predicates:
+            - Host=cart.gumoxi.com
+
+        - id: order_route
+          uri: lb://gumoximall-order
+          predicates:
+            - Host=order.gumoxi.com
+
+        - id: member_route
+          uri: lb://gumoximall-member
+          predicates:
+            - Host=member.gumoxi.com

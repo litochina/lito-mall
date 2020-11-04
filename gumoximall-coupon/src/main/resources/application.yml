@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:mysql://gumoximall.com:3306/gumoximall_sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    password: root
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: gumoximall.com:8848
+  application:
+    name: gumoximall-coupon
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+
+server:
+  port: 10309
+
+feign:
+  httpclient:
+    connection-timeout: 60000
+
